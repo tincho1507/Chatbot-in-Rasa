@@ -1,0 +1,165 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hola
+    - holaa
+    - que onda
+    - ey
+    - eu
+    - che
+    - alo
+    - buenass
+    - buenas
+    - holis
+    - holi
+    - holiwis
+
+- intent: goodbye
+  examples: |
+    - adios
+    - chau
+    - nos vemos
+    - nv
+    - nos vimos en disney
+    - hasta la proxima
+    - chauuu
+    - hasta luego
+    - me despido
+
+- intent: affirm
+  examples: |
+    - si
+    - obvio
+    - mas vale
+    - pero por supuesto
+    - por supuesto
+    - claro
+    - asi es
+    - exacto
+    - me parece perfecto
+    - perfecto
+    - genial
+
+- intent: deny
+  examples: |
+    - no 
+    - la verdad que no
+    - ni en pedo
+    - no che
+    - no flaco
+    - nop
+    - nope
+    - y la verdad que no
+    - na
+    - naaa
+    - nooo
+
+- intent: mood_great
+  examples: |
+    -perfecto
+    - joya
+    - estoy bien
+    - bien
+    - re bien
+    - genial
+    - bastante bien
+    - re piola
+    - piola
+    - tranqui
+    - chill
+    - joyita
+
+- intent: mood_unhappy
+  examples: |
+    - horrible
+    - mal
+    - feo
+    - triste
+    - re triste
+    - mi dia fue horrible
+    - muy mal
+    - muy triste
+    - la verdad que para el orto
+    - 
+
+- intent: bot_challenge
+  examples: |
+    - sos un bot?
+    - sos una persona?
+    - que sos?
+    - sos un humano?
+    - sos una maquina?
+    - sos una IA?
+    - sos algo real?
+
+- intent: who_are_you
+  examples: |
+    - quien sos?
+    - cual es tu nombre?
+    - como te llamas?
+    - puedo saber quien sos?
+    - se puede saber quien sos?
+    - quisiera saber quien sos
+    - quien sos
+    - como te llamas
+    - si no sos un bot, quien sos?
+
+- intent: what_do_you_study
+  examples: |
+    - que estudias?
+    - que carrera estudias?
+    - en que carrera estas?
+    - que carrera estas cursando?
+    - cual carrera estas cursando?
+    - que carrera estas siguiendo?
+    - que te encontras estudiando?
+
+- intent: where_do_you_study
+  examples: |
+    - donde estudias?
+    - en que universidad estudias?
+    - en cual universidad estudias?
+    - en que facultad estudias?
+    - cual es la universidad?
+    - en que uni?
+    - en que facu?
+
+- intent: what_is_your_state
+  examples: |
+    - cual es tu estado en la carrera?
+    - como te encontras en la carrera?
+    - como vas con la carrera?
+    - en que estado vas en la carrera?
+    - cual es tu estado de la carrera?
+    - en que parte vas de la carrera?
+    - como vas con la facu?
+    - en que año estas en la carrera?
+
+- intent: how_many_finals_do_you_have
+  examples: |
+    - cuantos finales debes?
+    - cuantos finales te quedan?
+    - debes algun final?
+    - estas al dia?
+    - debes finales?
+    - cuantos finales tenes que dar?
+    - estas al dia?
+
+- intent: what_subjects_are_you_studying
+  examples: |
+    - que materias estas cursando?
+    - que materias cursas?
+    - cuales materias cursas?
+    - que cursas?
+    - que es lo que estas cursando?
+    - que materias estas viendo?
+
+- intent: what_is_your_avg
+  examples: |
+    - cual es tu promedio?
+    - que promedio tenes?
+    - tu promedio cual es?
+    - que promedio tenes
+    - que promedio venis teniendo?
